@@ -9,11 +9,11 @@
 
 ## Common Implementations
 
-### In Memory matrix approach
+### ❌ In Memory matrix approach
 
 This approach would require the software to store the whole grid in memory, using a matrix filled with zero's and one's to represent **alive** and **dead** cells. This implementation is simple, but is limited, concidering that the scope of this project is to accept a grid in the signed 64-bit range, this would require around 4 million terabytes of memory.
 
-### Hashlife
+### ❌ Hashlife
 
 Hashlife would work great for this, but from my research, it is not simple to implement and it's absolutely overengineering for a project like this.
 
