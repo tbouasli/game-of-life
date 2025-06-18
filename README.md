@@ -35,7 +35,7 @@ go install github.com/tbouasli/game-of-life@latest
 To run this program, pass the Life 1.06 format file on the stdin and pipe the output to file (this helps if the result is too large)
 
 ```sh
-./game-of-life < sample.life > result.life
+game-of-life < sample.life > result.life
 ```
 
 ## Tests
