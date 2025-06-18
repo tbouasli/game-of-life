@@ -21,6 +21,11 @@ Hashlife would work great for this, but from my research, it is not simple to im
 
 This is the implementation on this project, since we can't represent every cell in the grid, let's only represent every living cell, this reduces the time and space complexity a lot. Basically whe iterate over all living cells and apply the rules for each one, instead of checking every single cell in the grid.
 
+## Installation
+
+```bash
+go install github.com/tbouasli/game-of-life@latest
+```
 
 ## Execution
 
@@ -30,9 +35,8 @@ This is the implementation on this project, since we can't represent every cell 
 To run this program, pass the Life 1.06 format file on the stdin and pipe the output to file (this helps if the result is too large)
 
 ```sh
-go run main.go < sample.life > result.life
+./game-of-life < sample.life > result.life
 ```
-
 
 ## Tests
 

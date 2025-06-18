@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"uber/game"
+
+	"github.com/tbouasli/game-of-life/game"
 )
 
 func main() {

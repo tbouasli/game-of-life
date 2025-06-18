@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"os"
 	"testing"
-	"uber/game"
+
+	"github.com/tbouasli/game-of-life/game"
 )
 
 const SAMPLES_DIR = "samples"
