@@ -17,7 +17,7 @@ This approach would require the software to store the whole grid in memory, usin
 
 Hashlife would work great for this, but from my research, it is not simple to implement and it's absolutely overengineering for a project like this.
 
-### Sparce Matrix
+### ✅ Sparce Matrix
 
 This is the implementation on this project, since we can't represent every cell in the grid, let's only represent every living cell, this reduces the time and space complexity a lot. Basically whe iterate over all living cells and apply the rules for each one, instead of checking every single cell in the grid.
 
